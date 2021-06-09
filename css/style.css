@@ -2,18 +2,23 @@ body {
     font-family: 'Rajdhani', sans-serif;
 }
 
-header {
-    width: 800px;
+.container {
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
+}
+header {
+   
+    line-height: 0.7;
 }
 header h1 {
     color: #ec183f;
     font-size: 45px;
+    margin-bottom: 0;
 }
 
 main {
-    width: 800px;
-    margin: 0 auto;
+    
     border-bottom: solid 1px #ccc;
     padding-bottom: 30px;
     margin-bottom: 20px;
